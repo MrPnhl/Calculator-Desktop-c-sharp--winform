@@ -1,0 +1,10 @@
+C:\Users\penah\OneDrive\Рабочий стол\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\penah\OneDrive\Рабочий стол\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\penah\OneDrive\Рабочий стол\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\penah\OneDrive\Рабочий стол\Calculator\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\penah\OneDrive\Рабочий стол\Calculator\Calculator\obj\Debug\Calculator.frmcalculator.resources
+C:\Users\penah\OneDrive\Рабочий стол\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Users\penah\OneDrive\Рабочий стол\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Users\penah\OneDrive\Рабочий стол\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\penah\OneDrive\Рабочий стол\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Users\penah\OneDrive\Рабочий стол\Calculator\Calculator\obj\Debug\Calculator.pdb
