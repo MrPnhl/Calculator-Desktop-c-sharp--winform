@@ -275,6 +275,7 @@ namespace Calculator
                 result = (firstnum - secundnum);
                 txtscreen.Text = Convert.ToString(result);
                 firstnum = result;
+                lblresultscreen.Text = lblresultscreen.Text + secundnum;
             }
             if (Operation == "*")
             {
