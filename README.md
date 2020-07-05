@@ -4,9 +4,9 @@ This is my first project that I share on Github. This is a simple project. This 
 
 #  Main Operations
 
-# Addition;
-# Subtraction;
-# Multiplication;
-# Division;
-# Mod;
+ Addition;
+ Subtraction;
+ Multiplication;
+ Division;
+ Mod;
  
