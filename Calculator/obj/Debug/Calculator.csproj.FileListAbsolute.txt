@@ -29,37 +29,3 @@ C:\Users\penah\OneDrive\Рабочий стол\Full Windows Calculator in C#\Ca
 C:\Users\penah\OneDrive\Рабочий стол\Full Windows Calculator in C#\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
 C:\Users\penah\OneDrive\Рабочий стол\Full Windows Calculator in C#\Calculator\obj\Debug\Calculator.exe
 C:\Users\penah\OneDrive\Рабочий стол\Full Windows Calculator in C#\Calculator\obj\Debug\Calculator.pdb
-C:\Users\penah\OneDrive\Рабочий стол\Full Windows Calculator in C#\Calculator\obj\Debug\Calculator.frmabout.resources
-C:\Users\penah\OneDrive\Рабочий стол\Full Windows Calculator in C#\Calculator\obj\Debug\Calculator.frmsendfeedback.resources
-C:\Users\penah\OneDrive\Рабочий стол\Full Windows Calculator in C#\Calculator\bin\Debug\Calculator.exe.manifest
-C:\Users\penah\OneDrive\Рабочий стол\Full Windows Calculator in C#\Calculator\bin\Debug\Calculator.application
-C:\Users\penah\OneDrive\Рабочий стол\Full Windows Calculator in C#\Calculator\obj\Debug\Calculator.exe.manifest
-C:\Users\penah\OneDrive\Рабочий стол\Full Windows Calculator in C#\Calculator\obj\Debug\Calculator.application
-C:\Users\penah\OneDrive\Рабочий стол\Full Windows Calculator in C#\Calculator\obj\Debug\Calculator.TrustInfo.xml
-C:\Users\penah\OneDrive\Рабочий стол\Full Windows Calculator in C#\Calculator\obj\Debug\Calculator.frmdatacalculator.resources
-C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\bin\Debug\Calculator.exe.config
-C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\bin\Debug\Calculator.exe.manifest
-C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\bin\Debug\Calculator.application
-C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\bin\Debug\Calculator.exe
-C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\bin\Debug\Calculator.pdb
-C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\bin\Debug\MetroFramework.Design.dll
-C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\bin\Debug\MetroFramework.dll
-C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\bin\Debug\MetroFramework.Fonts.dll
-C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
-C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\obj\Debug\Calculator.frmabout.resources
-C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\obj\Debug\Calculator.frmdatacalculator.resources
-C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\obj\Debug\Calculator.frmcalculator.resources
-C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\obj\Debug\Calculator.Properties.Resources.resources
-C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\obj\Debug\Calculator.frmscientafic.resources
-C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\obj\Debug\Calculator.frmsendfeedback.resources
-C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
-C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
-C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\obj\Debug\Calculator.TrustInfo.xml
-C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\obj\Debug\Calculator.exe.manifest
-C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\obj\Debug\Calculator.application
-C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\obj\Debug\Calculator.csproj.CopyComplete
-C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\obj\Debug\Calculator.exe
-C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\obj\Debug\Calculator.pdb
-C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\bin\Debug\aa-ER\Calculator.resources.dll
-C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\obj\Debug\Calculator.frmcalculator.aa-ER.resources
-C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\obj\Debug\aa-ER\Calculator.resources.dll
