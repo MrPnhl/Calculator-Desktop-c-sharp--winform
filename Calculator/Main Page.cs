@@ -327,5 +327,12 @@ namespace Calculator
                 txtscreen.Text = txtscreen.Text + ".";
             }
         }
+
+        private void scientificToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmscientafic frmscientafic = new frmscientafic();
+            frmscientafic.Show();
+            this.Hide();
+        }
     }
 }
