@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Calculator
 {
-    public partial class frmscientafic : Form
+    public partial class frmscientafic : MetroFramework.Forms.MetroForm
     {
         double firstnum;   // first number
         string Operation;
@@ -216,7 +216,11 @@ namespace Calculator
 
         private void btndot_Click(object sender, EventArgs e)
         {
-            if (txtscreens.Text != "")
+            if (txtscreens.Text.Contains("."))
+            {
+                txtscreens.Text = txtscreens.Text;
+            }
+            else
             {
                 txtscreens.Text = txtscreens.Text + ".";
             }
@@ -335,6 +339,84 @@ namespace Calculator
         {
             txtscreens.Text = "0";
             lblresultscreen.Text = "";
+        }
+        // x raised 2 times
+        private void btnxv2_Click(object sender, EventArgs e)
+        {
+            txtscreens.Text = "x²(" + txtscreens.Text+")" + "= " + Convert.ToString(Convert.ToDouble(txtscreens.Text) * Convert.ToDouble(txtscreens.Text));
+        }
+        // x raised 3 times
+        private void btnxv3_Click(object sender, EventArgs e)
+        {
+            txtscreens.Text = "x³(" + txtscreens.Text + ")" + "= " + Convert.ToString(Convert.ToDouble(txtscreens.Text) * Convert.ToDouble(txtscreens.Text) * Convert.ToInt32(txtscreens.Text));
+        }
+        // Click for factorial function
+        private void btnnfac_Click(object sender, EventArgs e)
+        {
+            int var = 1;
+            for (int i = 1; i <= Convert.ToInt16(txtscreens.Text); i++)
+            {
+                var = var * i;
+            }
+            txtscreens.Text = "fact("+txtscreens.Text+")" + "= "+ Convert.ToString(var);
+        }
+        // click for sin function
+        private void btnsin_Click(object sender, EventArgs e)
+        {
+            txtscreens.Text = "sin(" + txtscreens.Text + ")" + "= " + Convert.ToString(System.Math.Asin(Convert.ToDouble(System.Math.PI) / 180) * Convert.ToDouble(txtscreens.Text));
+        }
+        // click for pi function
+        private void btnpi_Click(object sender, EventArgs e)
+        {
+            txtscreens.Text = "π(" + txtscreens.Text + ")" + "= " +  "3.14159265359";
+        }
+        // Click for cos function
+        private void btncos_Click(object sender, EventArgs e)
+        {
+            txtscreens.Text = "cos(" + txtscreens.Text + ")" + "= " +  Convert.ToString(System.Math.Acos(Convert.ToDouble(System.Math.PI) / 180) * Convert.ToDouble(txtscreens.Text));
+        }
+        // Click for tan function
+        private void btntan_Click(object sender, EventArgs e)
+        {
+            txtscreens.Text = "tan(" + txtscreens.Text + ")" + "= " + Convert.ToString(System.Math.Tan((Convert.ToDouble(System.Math.PI) / 180) * (Convert.ToDouble(txtscreens.Text))));
+        }
+        // Click for log function
+        private void btnlog_Click(object sender, EventArgs e)
+        {
+            txtscreens.Text = "log(" + txtscreens.Text + ")" + "= " + Convert.ToString(System.Math.Log10(Convert.ToDouble(txtscreens.Text)));
+        }
+        // Click for ln function
+        private void btnln_Click(object sender, EventArgs e)
+        {
+            txtscreens.Text = "ln(" + txtscreens.Text + ")" + "= " + Convert.ToString(System.Math.Log(Convert.ToDouble(txtscreens.Text)));
+        }
+        // Click for sqrt function
+        private void btnsqrt_Click(object sender, EventArgs e)
+        {
+            txtscreens.Text = "√x(" + txtscreens.Text + ")" + "= " + Convert.ToString(System.Math.Sqrt(Convert.ToDouble(txtscreens.Text))); 
+        }
+
+        private void graphingToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("We are working on this update. Thanks for your attention. /Bu hissə üzrə yeniləmələr gedir. Diqqətiniz üçün təşəkkürlər!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void dataCalculatingToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmdatacalculator frmdatacalculator = new frmdatacalculator();
+            frmdatacalculator.Show();
+            this.Hide();
+            //MessageBox.Show("Bu hissə üzrə yeniləmələr gedir. Diqqətiniz üçün təşəkkürlər!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void temperatureToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("We are working on this update. Thanks for your attention. /Bu hissə üzrə yeniləmələr gedir. Diqqətiniz üçün təşəkkürlər!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void typesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

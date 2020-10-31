@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Calculator
 {
-    public partial class frmcalculator : Form
+    public partial class frmcalculator : MetroFramework.Forms.MetroForm
     {
         //                                          Created By Memmed Penahli 03.07.2020 05:30PM 
         double firstnum;   // first number
@@ -322,7 +322,11 @@ namespace Calculator
         //Function that handles event created when user clicks . button
         private void btndot_Click_1(object sender, EventArgs e)
         {
-            if (txtscreen.Text !="")
+            if(txtscreen.Text.Contains("."))
+            {
+                txtscreen.Text = txtscreen.Text;
+            }
+            else
             {
                 txtscreen.Text = txtscreen.Text + ".";
             }
@@ -333,6 +337,44 @@ namespace Calculator
             frmscientafic frmscientafic = new frmscientafic();
             frmscientafic.Show();
             this.Hide();
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmabout frmabout = new frmabout();
+            frmabout.ShowDialog();
+        }
+
+        private void graphingToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("We are working on this update. Thanks for your attention. / Bu hissə üzrə yeniləmələr gedir. Diqqətiniz üçün təşəkkürlər!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void dataCalculationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmdatacalculator frmdatacalculator = new frmdatacalculator();
+            frmdatacalculator.Show();
+            this.Hide();
+        }
+
+        private void teToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("We are working on this update. Thanks for your attention. /Bu hissə üzrə yeniləmələr gedir. Diqqətiniz üçün təşəkkürlər!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void frmcalculator_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
         }
     }
 }
