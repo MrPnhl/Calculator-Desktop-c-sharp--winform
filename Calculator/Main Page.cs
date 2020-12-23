@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Calculator
 {
-    public partial class frmcalculator : Form
+    public partial class frmcalculator : MetroFramework.Forms.MetroForm
     {
                                                  // Created By Memmed Penahli 03.07.2020 05:30PM 
         double firstnum;   // first number
@@ -20,12 +20,7 @@ namespace Calculator
         {
             InitializeComponent();
         }
-
-        //Control Box is false
-        private void btnexit_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
+        
         //Function that handles event created when user clicks Numpad1
         private void btn1_Click(object sender, EventArgs e)
         {
@@ -259,7 +254,7 @@ namespace Calculator
         {
             double secundnum;  
             double result;
-
+            
             secundnum = Convert.ToDouble(txtscreen.Text);
 
             if (Operation=="+")

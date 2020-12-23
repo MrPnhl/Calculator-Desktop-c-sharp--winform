@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Calculator
 {
-    public partial class frmscientafic : Form
+    public partial class frmscientafic : MetroFramework.Forms.MetroForm
     {
         double firstnum;   // first number
         string Operation;
@@ -94,11 +94,6 @@ namespace Calculator
             frmcalculator frmcalculator = new frmcalculator();
             frmcalculator.Show();
             this.Hide();
-        }
-
-        private void btnexit_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
 
         private void btn1_Click_1(object sender, EventArgs e)
@@ -339,7 +334,57 @@ namespace Calculator
 
         private void btnsin_Click(object sender, EventArgs e)
         {
+            txtscreens.Text = "sin(" + txtscreens.Text + ")" + "= " + Convert.ToString(System.Math.Asin(Convert.ToDouble(System.Math.PI) / 180) * Convert.ToDouble(txtscreens.Text));
+        }
 
+        private void btncos_Click(object sender, EventArgs e)
+        {
+            txtscreens.Text = "cos(" + txtscreens.Text + ")" + "= " + Convert.ToString(System.Math.Acos(Convert.ToDouble(System.Math.PI) / 180) * Convert.ToDouble(txtscreens.Text));
+        }
+
+        private void btnpi_Click(object sender, EventArgs e)
+        {
+            txtscreens.Text = "π(" + txtscreens.Text + ")" + "= " + "3.14159265359";
+        }
+
+        private void btntan_Click(object sender, EventArgs e)
+        {
+            txtscreens.Text = "tan(" + txtscreens.Text + ")" + "= " + Convert.ToString(System.Math.Tan((Convert.ToDouble(System.Math.PI) / 180) * (Convert.ToDouble(txtscreens.Text))));
+        }
+
+        private void btnlog_Click(object sender, EventArgs e)
+        {
+            txtscreens.Text = "log(" + txtscreens.Text + ")" + "= " + Convert.ToString(System.Math.Log10(Convert.ToDouble(txtscreens.Text)));
+        }
+
+        private void btnln_Click(object sender, EventArgs e)
+        {
+            txtscreens.Text = "ln(" + txtscreens.Text + ")" + "= " + Convert.ToString(System.Math.Log(Convert.ToDouble(txtscreens.Text)));
+        }
+
+        private void btnsqrt_Click(object sender, EventArgs e)
+        {
+            txtscreens.Text = "√x(" + txtscreens.Text + ")" + "= " + Convert.ToString(System.Math.Sqrt(Convert.ToDouble(txtscreens.Text)));
+        }
+
+        private void btnxv3_Click(object sender, EventArgs e)
+        {
+            txtscreens.Text = "x³(" + txtscreens.Text + ")" + "= " + Convert.ToString(Convert.ToDouble(txtscreens.Text) * Convert.ToDouble(txtscreens.Text) * Convert.ToInt32(txtscreens.Text));
+        }
+
+        private void btnxv2_Click(object sender, EventArgs e)
+        {
+            txtscreens.Text = "x²(" + txtscreens.Text + ")" + "= " + Convert.ToString(Convert.ToDouble(txtscreens.Text) * Convert.ToDouble(txtscreens.Text));
+        }
+
+        private void btnnfac_Click(object sender, EventArgs e)
+        {
+            int var = 1;
+            for (int i = 1; i <= Convert.ToInt16(txtscreens.Text); i++)
+            {
+                var = var * i;
+            }
+            txtscreens.Text = "fact("+txtscreens.Text+")" + "= "+ Convert.ToString(var);
         }
     }
 }
