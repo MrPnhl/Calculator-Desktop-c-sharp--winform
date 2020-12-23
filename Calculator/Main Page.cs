@@ -12,7 +12,7 @@ namespace Calculator
 {
     public partial class frmcalculator : Form
     {
-        //                                          Created By Memmed Penahli 03.07.2020 05:30PM 
+                                                 // Created By Memmed Penahli 03.07.2020 05:30PM 
         double firstnum;   // first number
         string Operation;
 
@@ -255,7 +255,6 @@ namespace Calculator
             
         }
         //Function that handles event created when user clicks Enter button
-
         private void btnberaber_Click(object sender, EventArgs e)
         {
             double secundnum;  
@@ -333,6 +332,11 @@ namespace Calculator
             frmscientafic frmscientafic = new frmscientafic();
             frmscientafic.Show();
             this.Hide();
+        }
+
+        private void frmcalculator_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

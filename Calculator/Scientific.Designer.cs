@@ -565,6 +565,7 @@
             this.btnsin.TabIndex = 61;
             this.btnsin.Text = "sin";
             this.btnsin.UseVisualStyleBackColor = false;
+            this.btnsin.Click += new System.EventHandler(this.btnsin_Click);
             // 
             // lblresultscreen
             // 

@@ -53,15 +53,15 @@
             this.lblresultscreen = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.typesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.standartToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.scientificToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.graphingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dataCalculationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.conventorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.teToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -351,7 +351,7 @@
             this.lblresultscreen.AutoSize = true;
             this.lblresultscreen.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.lblresultscreen.Font = new System.Drawing.Font("Microsoft PhagsPa", 13.25F);
-            this.lblresultscreen.Location = new System.Drawing.Point(24, 136);
+            this.lblresultscreen.Location = new System.Drawing.Point(24, 125);
             this.lblresultscreen.Name = "lblresultscreen";
             this.lblresultscreen.Size = new System.Drawing.Size(0, 23);
             this.lblresultscreen.TabIndex = 31;
@@ -389,37 +389,57 @@
             this.typesToolStripMenuItem.Size = new System.Drawing.Size(71, 22);
             this.typesToolStripMenuItem.Text = "Types";
             // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Font = new System.Drawing.Font("Corbel", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(175, 22);
+            this.toolStripMenuItem1.Text = "Calculator";
+            // 
             // standartToolStripMenuItem
             // 
             this.standartToolStripMenuItem.Checked = true;
             this.standartToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.standartToolStripMenuItem.Name = "standartToolStripMenuItem";
-            this.standartToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.standartToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
             this.standartToolStripMenuItem.Text = "Standart";
             // 
             // scientificToolStripMenuItem
             // 
             this.scientificToolStripMenuItem.Name = "scientificToolStripMenuItem";
-            this.scientificToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.scientificToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
             this.scientificToolStripMenuItem.Text = "Scientific";
             this.scientificToolStripMenuItem.Click += new System.EventHandler(this.scientificToolStripMenuItem_Click);
             // 
             // graphingToolStripMenuItem
             // 
             this.graphingToolStripMenuItem.Name = "graphingToolStripMenuItem";
-            this.graphingToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.graphingToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
             this.graphingToolStripMenuItem.Text = "Graphing";
             // 
             // dataCalculationToolStripMenuItem
             // 
             this.dataCalculationToolStripMenuItem.Name = "dataCalculationToolStripMenuItem";
-            this.dataCalculationToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dataCalculationToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
             this.dataCalculationToolStripMenuItem.Text = "Data Calculation";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(172, 6);
+            // 
+            // conventorToolStripMenuItem
+            // 
+            this.conventorToolStripMenuItem.Font = new System.Drawing.Font("Corbel", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.conventorToolStripMenuItem.Name = "conventorToolStripMenuItem";
+            this.conventorToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.conventorToolStripMenuItem.Text = "Converter";
+            // 
+            // teToolStripMenuItem
+            // 
+            this.teToolStripMenuItem.Name = "teToolStripMenuItem";
+            this.teToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.teToolStripMenuItem.Text = "Temperature";
             // 
             // aboutToolStripMenuItem
             // 
@@ -427,26 +447,6 @@
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(75, 22);
             this.aboutToolStripMenuItem.Text = "About";
-            // 
-            // conventorToolStripMenuItem
-            // 
-            this.conventorToolStripMenuItem.Font = new System.Drawing.Font("Corbel", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.conventorToolStripMenuItem.Name = "conventorToolStripMenuItem";
-            this.conventorToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.conventorToolStripMenuItem.Text = "Converter";
-            // 
-            // teToolStripMenuItem
-            // 
-            this.teToolStripMenuItem.Name = "teToolStripMenuItem";
-            this.teToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.teToolStripMenuItem.Text = "Temperature";
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.Font = new System.Drawing.Font("Corbel", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem1.Text = "Calculator";
             // 
             // frmcalculator
             // 
@@ -485,6 +485,7 @@
             this.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
             this.Name = "frmcalculator";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Load += new System.EventHandler(this.frmcalculator_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

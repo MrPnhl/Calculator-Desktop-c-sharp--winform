@@ -336,5 +336,10 @@ namespace Calculator
             txtscreens.Text = "0";
             lblresultscreen.Text = "";
         }
+
+        private void btnsin_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
