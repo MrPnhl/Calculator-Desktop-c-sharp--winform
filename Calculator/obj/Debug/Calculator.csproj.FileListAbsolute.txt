@@ -42,3 +42,4 @@ C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Ca
 C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\bin\Debug\MetroFramework.dll
 C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
 C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\obj\Debug\Calculator.csproj.CopyComplete
+C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\obj\Debug\Calculator.AboutBox.resources
