@@ -105,5 +105,16 @@ namespace Calculator
         {
 
         }
+
+        private void tableLayoutPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void okButton_Click(object sender, EventArgs e)
+        {
+            Screen.frmscancode frmscancode = new Screen.frmscancode();
+            frmscancode.ShowDialog();
+        }
     }
 }

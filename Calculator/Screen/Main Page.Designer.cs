@@ -60,6 +60,8 @@
             this.conventorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.teToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sendFeedbackToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -387,7 +389,7 @@
             // 
             this.toolStripMenuItem1.Font = new System.Drawing.Font("Corbel", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(175, 22);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem1.Text = "Calculator";
             // 
             // standartToolStripMenuItem
@@ -395,47 +397,63 @@
             this.standartToolStripMenuItem.Checked = true;
             this.standartToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.standartToolStripMenuItem.Name = "standartToolStripMenuItem";
-            this.standartToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.standartToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.standartToolStripMenuItem.Text = "Standart";
             // 
             // scientificToolStripMenuItem
             // 
             this.scientificToolStripMenuItem.Name = "scientificToolStripMenuItem";
-            this.scientificToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.scientificToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.scientificToolStripMenuItem.Text = "Scientific";
             this.scientificToolStripMenuItem.Click += new System.EventHandler(this.scientificToolStripMenuItem_Click);
             // 
             // dataCalculationToolStripMenuItem
             // 
             this.dataCalculationToolStripMenuItem.Name = "dataCalculationToolStripMenuItem";
-            this.dataCalculationToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.dataCalculationToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.dataCalculationToolStripMenuItem.Text = "Data Calculation";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(172, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
             // 
             // conventorToolStripMenuItem
             // 
             this.conventorToolStripMenuItem.Font = new System.Drawing.Font("Corbel", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.conventorToolStripMenuItem.Name = "conventorToolStripMenuItem";
-            this.conventorToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.conventorToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.conventorToolStripMenuItem.Text = "Converter";
             // 
             // teToolStripMenuItem
             // 
             this.teToolStripMenuItem.Name = "teToolStripMenuItem";
-            this.teToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.teToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.teToolStripMenuItem.Text = "Temperature";
             // 
             // aboutToolStripMenuItem
             // 
+            this.aboutToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.aboutToolStripMenuItem1,
+            this.sendFeedbackToolStripMenuItem});
             this.aboutToolStripMenuItem.Image = global::Calculator.Properties.Resources.Oxygen_Icons_org_Oxygen_Actions_help_about;
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(75, 22);
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
+            // 
+            // sendFeedbackToolStripMenuItem
+            // 
+            this.sendFeedbackToolStripMenuItem.Name = "sendFeedbackToolStripMenuItem";
+            this.sendFeedbackToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sendFeedbackToolStripMenuItem.Text = "Send feedback";
+            // 
+            // aboutToolStripMenuItem1
+            // 
+            this.aboutToolStripMenuItem1.Name = "aboutToolStripMenuItem1";
+            this.aboutToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.aboutToolStripMenuItem1.Text = "About";
+            this.aboutToolStripMenuItem1.Click += new System.EventHandler(this.aboutToolStripMenuItem1_Click);
             // 
             // frmcalculator
             // 
@@ -514,6 +532,8 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem conventorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem teToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sendFeedbackToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem1;
     }
 }
 
