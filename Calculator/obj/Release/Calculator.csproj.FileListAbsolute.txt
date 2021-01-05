@@ -1,0 +1,16 @@
+C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\bin\Release\Calculator.exe.config
+C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\bin\Release\Calculator.exe
+C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\bin\Release\Calculator.pdb
+C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\bin\Release\MetroFramework.dll
+C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\obj\Release\Calculator.AboutBox.resources
+C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\obj\Release\Calculator.Screen.frmdatacalculator.resources
+C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\obj\Release\Calculator.frmcalculator.resources
+C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\obj\Release\Calculator.Properties.Resources.resources
+C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\obj\Release\Calculator.Screen.frmscancode.resources
+C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\obj\Release\Calculator.frmscientafic.resources
+C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\obj\Release\Calculator.Screen.frmsendfeedback.resources
+C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\obj\Release\Calculator.csproj.GenerateResource.cache
+C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\obj\Release\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\obj\Release\Calculator.csproj.CopyComplete
+C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\obj\Release\Calculator.exe
+C:\Users\penah\OneDrive\Рабочий стол\My projects Apps\Full Windows Calculator in C#\Calculator\obj\Release\Calculator.pdb

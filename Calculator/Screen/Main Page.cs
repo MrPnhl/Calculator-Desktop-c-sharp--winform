@@ -252,54 +252,62 @@ namespace Calculator
         //Function that handles event created when user clicks Enter button
         private void btnberaber_Click(object sender, EventArgs e)
         {
-            double secundnum;  
-            double result;
-            
-            secundnum = Convert.ToDouble(txtscreen.Text);
+            try
+            {
+                double secundnum;
+                double result;
 
-            if (Operation=="+")
-            {
-                result = (firstnum + secundnum);
-                txtscreen.Text = Convert.ToString(result);
-                firstnum = result;
-                lblresultscreen.Text = lblresultscreen.Text + secundnum;
-            }
-            if (Operation=="-")
-            {
-                result = (firstnum - secundnum);
-                txtscreen.Text = Convert.ToString(result);
-                firstnum = result;
-                lblresultscreen.Text = lblresultscreen.Text + secundnum;
-            }
-            if (Operation == "*")
-            {
-                result = (firstnum * secundnum);
-                txtscreen.Text = Convert.ToString(result);
-                firstnum = result;
-                lblresultscreen.Text = lblresultscreen.Text + secundnum;
-            }
-            if (Operation == "/")
-            {
-                if (secundnum==0)
+                secundnum = Convert.ToDouble(txtscreen.Text);
+
+                if (Operation == "+")
                 {
-                    txtscreen.Text = "Cannot divide by zero";
-                    lblresultscreen.Text = "";
-                }
-                else
-                {
-                    result = (firstnum / secundnum);
+                    result = (firstnum + secundnum);
                     txtscreen.Text = Convert.ToString(result);
                     firstnum = result;
                     lblresultscreen.Text = lblresultscreen.Text + secundnum;
                 }
+                if (Operation == "-")
+                {
+                    result = (firstnum - secundnum);
+                    txtscreen.Text = Convert.ToString(result);
+                    firstnum = result;
+                    lblresultscreen.Text = lblresultscreen.Text + secundnum;
+                }
+                if (Operation == "*")
+                {
+                    result = (firstnum * secundnum);
+                    txtscreen.Text = Convert.ToString(result);
+                    firstnum = result;
+                    lblresultscreen.Text = lblresultscreen.Text + secundnum;
+                }
+                if (Operation == "/")
+                {
+                    if (secundnum == 0)
+                    {
+                        txtscreen.Text = "Cannot divide by zero";
+                        lblresultscreen.Text = "";
+                    }
+                    else
+                    {
+                        result = (firstnum / secundnum);
+                        txtscreen.Text = Convert.ToString(result);
+                        firstnum = result;
+                        lblresultscreen.Text = lblresultscreen.Text + secundnum;
+                    }
+                }
+                if (Operation == "%")
+                {
+                    result = (firstnum % secundnum);
+                    txtscreen.Text = Convert.ToString(result);
+                    firstnum = result;
+                    lblresultscreen.Text = "";
+                }
             }
-            if (Operation == "%")
+            catch (Exception)
             {
-                result = (firstnum % secundnum);
-                txtscreen.Text = Convert.ToString(result);
-                firstnum = result;
-                lblresultscreen.Text = "";
+                MessageBox.Show("Əməliyyatda səhv baş verdi bir az sonra yenidən yoxlayın :(", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            
         }
         //Function that handles event created when user clicks bacsspace button
         private void btndel_Click(object sender, EventArgs e)
@@ -343,6 +351,13 @@ namespace Calculator
         {
             AboutBox aboutBox = new AboutBox();
             aboutBox.Show();
+        }
+
+        private void dataCalculationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Screen.frmdatacalculator frmdatacalculator = new Screen.frmdatacalculator();
+            frmdatacalculator.Show();
+            this.Hide();
         }
     }
 }

@@ -60,8 +60,8 @@
             this.conventorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.teToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sendFeedbackToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.sendFeedbackToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -412,6 +412,7 @@
             this.dataCalculationToolStripMenuItem.Name = "dataCalculationToolStripMenuItem";
             this.dataCalculationToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.dataCalculationToolStripMenuItem.Text = "Data Calculation";
+            this.dataCalculationToolStripMenuItem.Click += new System.EventHandler(this.dataCalculationToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
@@ -442,18 +443,18 @@
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
-            // sendFeedbackToolStripMenuItem
-            // 
-            this.sendFeedbackToolStripMenuItem.Name = "sendFeedbackToolStripMenuItem";
-            this.sendFeedbackToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.sendFeedbackToolStripMenuItem.Text = "Send feedback";
-            // 
             // aboutToolStripMenuItem1
             // 
             this.aboutToolStripMenuItem1.Name = "aboutToolStripMenuItem1";
-            this.aboutToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.aboutToolStripMenuItem1.Size = new System.Drawing.Size(166, 22);
             this.aboutToolStripMenuItem1.Text = "About";
             this.aboutToolStripMenuItem1.Click += new System.EventHandler(this.aboutToolStripMenuItem1_Click);
+            // 
+            // sendFeedbackToolStripMenuItem
+            // 
+            this.sendFeedbackToolStripMenuItem.Name = "sendFeedbackToolStripMenuItem";
+            this.sendFeedbackToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
+            this.sendFeedbackToolStripMenuItem.Text = "Send feedback";
             // 
             // frmcalculator
             // 

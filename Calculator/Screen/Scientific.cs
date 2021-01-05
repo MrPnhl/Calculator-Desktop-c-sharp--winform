@@ -259,54 +259,62 @@ namespace Calculator
 
         private void btnberaber_Click_1(object sender, EventArgs e)
         {
-            double secundnum;
-            double result;
+            try
+            {
+                double secundnum;
+                double result;
 
-            secundnum = Convert.ToDouble(txtscreens.Text);
+                secundnum = Convert.ToDouble(txtscreens.Text);
 
-            if (Operation == "+")
-            {
-                result = (firstnum + secundnum);
-                txtscreens.Text = Convert.ToString(result);
-                firstnum = result;
-                lblresultscreen.Text = lblresultscreen.Text + secundnum;
-            }
-            if (Operation == "-")
-            {
-                result = (firstnum - secundnum);
-                txtscreens.Text = Convert.ToString(result);
-                firstnum = result;
-                lblresultscreen.Text = lblresultscreen.Text + secundnum;
-            }
-            if (Operation == "*")
-            {
-                result = (firstnum * secundnum);
-                txtscreens.Text = Convert.ToString(result);
-                firstnum = result;
-                lblresultscreen.Text = lblresultscreen.Text + secundnum;
-            }
-            if (Operation == "/")
-            {
-                if (secundnum == 0)
+                if (Operation == "+")
                 {
-                    txtscreens.Text = "Cannot divide by zero";
-                    lblresultscreen.Text = "";
-                }
-                else
-                {
-                    result = (firstnum / secundnum);
+                    result = (firstnum + secundnum);
                     txtscreens.Text = Convert.ToString(result);
                     firstnum = result;
                     lblresultscreen.Text = lblresultscreen.Text + secundnum;
                 }
+                if (Operation == "-")
+                {
+                    result = (firstnum - secundnum);
+                    txtscreens.Text = Convert.ToString(result);
+                    firstnum = result;
+                    lblresultscreen.Text = lblresultscreen.Text + secundnum;
+                }
+                if (Operation == "*")
+                {
+                    result = (firstnum * secundnum);
+                    txtscreens.Text = Convert.ToString(result);
+                    firstnum = result;
+                    lblresultscreen.Text = lblresultscreen.Text + secundnum;
+                }
+                if (Operation == "/")
+                {
+                    if (secundnum == 0)
+                    {
+                        txtscreens.Text = "Cannot divide by zero";
+                        lblresultscreen.Text = "";
+                    }
+                    else
+                    {
+                        result = (firstnum / secundnum);
+                        txtscreens.Text = Convert.ToString(result);
+                        firstnum = result;
+                        lblresultscreen.Text = lblresultscreen.Text + secundnum;
+                    }
+                }
+                if (Operation == "%")
+                {
+                    result = (firstnum % secundnum);
+                    txtscreens.Text = Convert.ToString(result);
+                    firstnum = result;
+                    lblresultscreen.Text = "";
+                }
             }
-            if (Operation == "%")
+            catch (Exception)
             {
-                result = (firstnum % secundnum);
-                txtscreens.Text = Convert.ToString(result);
-                firstnum = result;
-                lblresultscreen.Text = "";
+                MessageBox.Show("Əməliyyatda səhv baş verdi bir az sonra yenidən yoxlayın :(", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+
         }
 
         private void btndel_Click_1(object sender, EventArgs e)
@@ -385,6 +393,13 @@ namespace Calculator
                 var = var * i;
             }
             txtscreens.Text = "fact("+txtscreens.Text+")" + "= "+ Convert.ToString(var);
+        }
+
+        private void dataCalculatingToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Screen.frmdatacalculator frmdatacalculator = new Screen.frmdatacalculator();
+            frmdatacalculator.Show();
+            this.Hide();
         }
     }
 }

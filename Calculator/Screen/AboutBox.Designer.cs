@@ -115,7 +115,8 @@
             this.textBoxDescription.Size = new System.Drawing.Size(261, 118);
             this.textBoxDescription.TabIndex = 23;
             this.textBoxDescription.TabStop = false;
-            this.textBoxDescription.Text = "Windows form application.\r\n\r\nContact : penahli11.memmed@gmail.com";
+            this.textBoxDescription.Text = "Windows form application.\r\n\r\nContact : penahli11.memmed@gmail.com\r\n\r\n\r\nAll rights" +
+    " reserved.";
             // 
             // okButton
             // 

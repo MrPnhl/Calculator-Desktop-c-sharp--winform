@@ -127,6 +127,7 @@
             this.dataCalculatingToolStripMenuItem.Name = "dataCalculatingToolStripMenuItem";
             this.dataCalculatingToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.dataCalculatingToolStripMenuItem.Text = "Data Calculation";
+            this.dataCalculatingToolStripMenuItem.Click += new System.EventHandler(this.dataCalculatingToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
@@ -395,7 +396,7 @@
             this.btnc.Location = new System.Drawing.Point(158, 192);
             this.btnc.Name = "btnc";
             this.btnc.Size = new System.Drawing.Size(68, 51);
-            this.btnc.TabIndex = 48;
+            this.btnc.TabIndex = 0;
             this.btnc.Text = "C";
             this.btnc.UseVisualStyleBackColor = false;
             this.btnc.Click += new System.EventHandler(this.btnc_Click_1);
